@@ -1,7 +1,7 @@
 body{
-    background-color: powderblue;
+    background-color: powderblue; /* Makes the background colour blue*/
 }
 
 h1{
-    color: black;
+    color: black; /*Gives text in the h1 tag the colour black*/
 }
