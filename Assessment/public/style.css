@@ -6,6 +6,9 @@ h1{
     color: black; /*Gives text in the h1 tag the colour black*/
 }
 
+h2{
+    color: purple /*Makes text in the h2 tag purple*/
+}
 
 .container{
     overflow-wrap: break-word;
