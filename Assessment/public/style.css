@@ -4,10 +4,17 @@ body{
 
 h1{
     color: black; /*Gives text in the h1 tag the colour black*/
+    font-family: 'Times New Roman', Times, serif; /*Chnages the font of the text*/
 }
 
 h2{
-    color: purple /*Makes text in the h2 tag purple*/
+    color: purple; /*Makes text in the h2 tag purple*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container{
