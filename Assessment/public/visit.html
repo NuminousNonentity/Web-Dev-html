@@ -5,12 +5,93 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Visit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
   <link href="style.css" rel="stylesheet" type="text/css" /> <!-- Links the page to the css file -->
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+/head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home page</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">History page</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--navbar from bootstrap -->
     <h1>Places to visit</h1>
-  
+
+
+
+
+
+<p>Collapsible Set:</p>
+<button type="button" class="collapsible">Open Section 1</button>
+<div class="content">
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-7">          
+            Place one is a nice place to visit dkjfbsfm ewu gfwegfdag iffushfoaf fdoiugfuefhweif voagfkafdb   
+      </div>
+      <div class = "col-5">
+            <img src="img/Wendys.png" alt="Wendys">
+      </div>
+    </div>
+</div>
+</div>
+<button type="button" class="collapsible">Open Section 2</button>
+<div class="content">
+    <div class = "container">
+    <div class = "row">
+      <div class = "col-7">          
+            Place one is a nice place to visit dkjfbsfm ewu gfwegfdag iffushfoaf fdoiugfuefhweif voagfkafdb   
+      </div>
+      <div class = "col-5">
+            <img src="img/Wendys.png" alt="Wendys">
+      </div>
+    </div>
+</div>
+</div>
+<button type="button" class="collapsible">Open Section 3</button>
+<div class="content">
+    <div class = "container">
+    <div class = "row">
+      <div class = "col-7">          
+            Place one is a nice place to visit dkjfbsfm ewu gfwegfdag iffushfoaf fdoiugfuefhweif voagfkafdb   
+      </div>
+      <div class = "col-5">
+            <img src="img/Wendys.png" alt="Wendys">
+      </div>
+    </div>
+</div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </body>
 
