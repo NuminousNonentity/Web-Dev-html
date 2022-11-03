@@ -36,3 +36,11 @@ h2{
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+#Image {
+  position: absolute;
+  top: 10;
+  right: 0;
+  width: 600px;
+  height: 300px;
+}
