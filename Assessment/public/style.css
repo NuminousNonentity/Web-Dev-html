@@ -51,3 +51,11 @@ p{
   width: 600px;
   height: 300px;
 }
+
+#para{
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  width: 100%;
+  text-align: center;
+}
