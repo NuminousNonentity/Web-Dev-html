@@ -94,17 +94,17 @@
 
 <!-- Got the script from w3schools -->
 <script> 
-var coll = document.getElementsByClassName("collapsible");
-var i;
+var coll = document.getElementsByClassName("collapsible"); //creating a variable called coll using the html name collapsible
+var i; // creating variable i 
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+for (i = 0; i < coll.length; i++) { // for loop until i is the same value as the length of variable coll
+  coll[i].addEventListener("click", function() { // applying the on click function which will leasd to the container getting expanded 
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
-      content.style.display = "none";
+      content.style.display = "none"; // shows the content of the container if it's hidded
     } else {
-      content.style.display = "block";
+      content.style.display = "block"; // hides the content of the container if its showing
     }
   });
 }
