@@ -45,11 +45,11 @@ p{
 }
 
 #Image {
-  position: absolute;
+  position: relative;
   top: 10;
   right: 0;
   width: 600px;
-  height: 300px;
+  height: 384px;
 }
 
 #para{
@@ -60,3 +60,4 @@ p{
   left: 10%;
   width: 100%;
 }
+
