@@ -52,6 +52,14 @@ p{
   height: 384px;
 }
 
+#Img {
+  position: relative;
+  top: 10;
+  left: 0%;
+  width: 400px;
+  height: 380px;
+}
+
 #para{
   overflow-wrap: break-word;
   text-align: center;
