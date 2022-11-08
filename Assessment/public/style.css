@@ -60,6 +60,12 @@ p{
   height: 380px;
 }
 
+#img{
+  position: relative;
+  width: 500px;
+  height: 200px;
+}
+
 #para{
   overflow-wrap: break-word;
   text-align: center;
@@ -68,4 +74,3 @@ p{
   left: 10%;
   width: 100%;
 }
-
